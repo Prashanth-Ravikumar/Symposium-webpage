@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravartan '25 - National Level Technical Symposium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/Ait logo.png" alt="Adithya Institute of Technology Logo" class="logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-section">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#register-section">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Welcome Section -->
+        <section class="welcome-section">
+            <h2 class="dprmt">Department of Electrical and Electronics Engineering</h2>
+            <h1>Welcomes you all to</h1>
+            <h2 class="event-name">Pravartan '25</h2>
+            <p class="tagline">A National Level Technical Symposium</p>
+            <p>Technical Events | Non-Technical Events | Robotic Events | Fun Events</p>
+            <a href="brochure.pdf" download> <button class="brochure-button">Download Brochure</button></a>
+            <p class="date-location">xx March 2025<br>Adithya Institute of Technology</p>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about-section">
+            <div class="carousel-container">
+                <!-- Slides -->
+                <div class="carousel-slide">
+                    <img src="https://th.bing.com/th/id/R.3dfda9deac3b38b9edc14d0b778b567b?rik=47fkBaImwoLpmQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fFree-Download-Wildlife-Image.jpg&ehk=0Y6qVq5JBhu1a00gxIhsITN9M9Ntlxqcz5hGyTTQRqw%3d&risl=&pid=ImgRaw&r=0"
+                        alt="Image 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="image2.jpg" alt="Image 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://th.bing.com/th/id/R.3dfda9deac3b38b9edc14d0b778b567b?rik=47fkBaImwoLpmQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fFree-Download-Wildlife-Image.jpg&ehk=0Y6qVq5JBhu1a00gxIhsITN9M9Ntlxqcz5hGyTTQRqw%3d&risl=&pid=ImgRaw&r=0"
+                        alt="Image 3">
+                </div>
+
+                <!-- Next and Previous buttons -->
+                <a class="prev" onclick="moveSlides(-1)">&#10094;</a>
+                <a class="next" onclick="moveSlides(1)">&#10095;</a>
+            </div>
+
+            <!-- Dots/Indicators -->
+            <div class="carousel-dots">
+                <span class="dot" onclick="setCurrentSlide(1)"></span>
+                <span class="dot" onclick="setCurrentSlide(2)"></span>
+                <span class="dot" onclick="setCurrentSlide(3)"></span>
+            </div>
+
+            <div class="about-text">
+                <h3>About Pravartan '25</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa enim impedit ab ad in minus magni.
+                    Iure tenetur possimus repudiandae incidunt culpa sapiente quasi reprehenderit libero at rem nisi
+                    voluptatibus eveniet velit molestias enim facere maxime recusandae, perferendis blanditiis ab quos
+                    hic. Et, natus suscipit minus veritatis sunt eos eius enim delectus dicta, sint iusto ea odio. Ullam
+                    non officia nobis, aut expedita cupiditate at commodi, temporibus, exercitationem quisquam natus
+                    perferendis doloremque labore voluptates libero eius reprehenderit nihil iure recusandae eaque
+                    veritatis totam esse quo ipsum! Veritatis incidunt ea hic dolorem molestias at facilis, vitae quasi
+                    provident, totam unde ullam? Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula
+                    magna quis augue consectetur varius. Fusce dapibus tellus eu lectus malesuada, nec mollis nulla
+                    auctor.
+                </p>
+                <button class="read-more-button">Read more</button>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section class="events" id="events">
+            <h1 class="title">Events</h1>
+            <div class="event-categories">
+                <div class="event-item">
+                    <a href="tech.html">Technical Events</a>
+                </div>
+                <div class="event-item" id="tech2">
+                    <a href="non-tech.html">Non-Technical Events</a>
+                </div>
+                <div class="event-item">
+                    <a href="robo.html">Robotic Events</a>
+                </div>
+            </div>
+            <div class="register-btn">
+                <a href="#register-section">Click to register</a>
+            </div>
+        </section>
+
+        <!-- Register Section -->
+        <section class="register-section" id="register-section">
+            <h1 class="section-title">Register</h1>
+            <div class="countdown-container">
+                <div class="countdown">
+                    <div class="time-box">
+                        <span class="time">00</span>
+                        <span class="label">days</span>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="time-box">
+                        <span class="time">00</span>
+                        <span class="label">hours</span>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="time-box">
+                        <span class="time">00</span>
+                        <span class="label">min</span>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="time-box">
+                        <span class="time">00</span>
+                        <span class="label">sec</span>
+                    </div>
+                </div>
+            </div>
+            <div class="register-actions">
+                <button class="register-btn1">Register Here</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="Contact">
+        <p>&copy; 2025 Pravartan. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><img src="https://img.icons8.com/3d-fluency/94/instagram-logo.png" alt="Instagram"
+                    class="social-icon"></a>
+            <a href="#"><img src="https://img.icons8.com/color/48/youtube-play.png" alt="YouTube"
+                    class="social-icon"></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
