@@ -469,6 +469,33 @@ section.register-section h1.section-title {
     transform: scale(1.05);
 }
 
+.location {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, #1a1a2e, #16213e);
+}
+
+.location h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.location h6 {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.location iframe {
+    border: 3px solid #fff;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 1000px;
+    height: 450px;
+}
+
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .countdown {
