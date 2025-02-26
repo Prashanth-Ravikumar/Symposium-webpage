@@ -55,7 +55,7 @@ nav {
 }
 
 .nav-links li a {
-    color: rgb(0, 0, 0);
+    color: rgb(16, 1, 153);
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
@@ -168,6 +168,7 @@ nav {
     margin: auto;
     overflow: hidden;
     margin-top: 20px;
+    border-radius: 10px;
 }
 
 /* Carousel slide - image styling */
@@ -179,7 +180,7 @@ nav {
 
 .carousel-slide img {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -226,7 +227,7 @@ nav {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
+    transition: background-color 0.3s ease;
 }
 
 .active, .dot:hover {
@@ -284,7 +285,6 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* background-img: url('https://wallpapercave.com/wp/wp7488412.jpg'); */
     background-image: url('https://wallpapercave.com/wp/wp7488412.jpg');
     background-size: cover;
     background-position: center;
@@ -564,7 +564,7 @@ a {
 }
 
 a:hover {
-    color: #5a21b3;
+    color: #dcef14;
 }
 
 button {
@@ -595,6 +595,7 @@ footer {
     transform: scale(1.1);
     transition: transform 0.3s ease;
 }
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -632,7 +633,7 @@ footer {
     }
 
     .nav-links li a {
-        color: white;
+        color: rgb(2, 51, 247);
         
     }
 
@@ -708,12 +709,17 @@ footer {
     background-color: #627E9B;
     color: white;
     width: 300px;
-    padding: 20px;
+    /* padding: 20px; */
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
     min-height: 350px;
+}
+
+.event-card img{
+    height: 100%;
+    width: 100%;
 }
 
 

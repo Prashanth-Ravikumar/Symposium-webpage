@@ -8,7 +8,7 @@ hamburger.addEventListener('click', () => {
 
 
 // Set the date for countdown (adjust the date below)
-const targetDate = new Date("march 28, 2025 10:30:00").getTime();
+const targetDate = new Date("march 26, 2025 00:00:00").getTime();
 
 const countdownInterval = setInterval(function () {
     const now = new Date().getTime();
