@@ -70,5 +70,5 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
-setInterval(() => moveSlides(1), 5000);
+setInterval(() => moveSlides(1), 10000);
 
