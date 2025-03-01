@@ -307,12 +307,9 @@ nav {
 }
 
 .event-item {
-    background-color: #003366;
-    background-image: url('https://i.pinimg.com/736x/ec/b3/a5/ecb3a5e939b2632502198cff4dda40c9.jpg');
     background-position: center;
     background-size:cover;
     color: white;
-    border-radius: 50%;
     transition: transform 0.3s ease;
     display: flex;
     justify-content: center;
@@ -321,6 +318,18 @@ nav {
     min-height: 200px; /* Ensures uniform height */
 }
 
+#general-event-brochure{
+    width: 300px;
+    height: auto;
+    background: transparent 30%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#general-event-content img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
 
 .event-item:hover {
     transform: scale(1.05);
@@ -685,6 +694,7 @@ footer {
 .events-section {
     text-align: center;
     padding: 40px;
+    margin: 2px;
     padding-top: 20px;
     padding-bottom: 100px;
     background: linear-gradient(rgba(3, 3, 3, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.hdqwalls.com/wallpapers/3d-shapes-abstract-lines-4k-nh.jpg'); 
