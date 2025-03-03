@@ -319,8 +319,6 @@ nav {
 }
 
 #general-event-brochure{
-    width: 300px;
-    height: auto;
     background: transparent ;
     
     /* box-shadow: rgba(139, 131, 228, 0.25) 0px 54px 55px, rgba(116, 140, 244, 0.12) 0px -12px 30px, rgba(90, 103, 197, 0.12) 0px 4px 6px, rgba(92, 103, 227, 0.17) 0px 12px 13px, rgba(94, 114, 226, 0.09) 0px -3px 5px; */
@@ -719,7 +717,7 @@ footer {
 }
 
 .event-card {
-    background-color: #627E9B;
+    background:transparent;
     color: white;
     width: 300px;
     /* padding: 20px; */
